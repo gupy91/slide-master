@@ -32,6 +32,12 @@
       "delivery_purpose": "text"
     }
   },
+  "metabuild_project_guide": {
+    "summary": "메타빌드(주) 사내 프로젝트 수행 가이드 스타일 — 오렌지 헤더 밴드와 레드 포인트를 쓰는 실무형 기업 문서 톤",
+    "canvas_format": "ppt169",
+    "page_count": 8,
+    "primary_color": "#ED7D31"
+  },
   "naver_ir": {
     "summary": "NAVER IR 실적발표 스타일 — 분기 실적발표, 재무 보고, 투자자 미팅, 절제된 재무 데이터 덱",
     "canvas_format": "ppt169",

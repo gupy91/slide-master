@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720"
+     data-pptx-master="master-default" data-pptx-master-name="기본 마스터"
+     data-pptx-layout="cover" data-pptx-layout-name="표지">
+  <rect id="master-bg" data-pptx-layer="master" data-pptx-editable="false" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <image id="layout-cover-band" data-pptx-layer="layout" data-pptx-editable="false"
+         href="../images/header_band.png" x="0" y="290" width="1280" height="130" preserveAspectRatio="none"/>
+  <image id="layout-cover-logo" data-pptx-layer="layout" data-pptx-editable="false"
+         href="../images/logo_wordmark.png" x="1024" y="644" width="176" height="58" preserveAspectRatio="none"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="160 305 960 100">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="640" y="365" text-anchor="middle"
+          xml:space="preserve" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="40"
+          font-weight="bold" fill="#FFFFFF" letter-spacing="-1">{{TITLE}}</text>
+  </g>
+
+  <g id="subtitle-slot" data-pptx-placeholder="subtitle" data-pptx-placeholder-idx="1" data-pptx-placeholder-bounds="160 430 960 50">
+    <text id="subtitle-carrier" data-pptx-placeholder-carrier="true" x="640" y="462" text-anchor="middle"
+          xml:space="preserve" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="20"
+          fill="#44546A">{{SUBTITLE}}</text>
+  </g>
+
+  <g id="date-slot" data-pptx-placeholder="date" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="80 618 260 30">
+    <text id="date-carrier" data-pptx-placeholder-carrier="true" x="90" y="638" text-anchor="start"
+          xml:space="preserve" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="13"
+          fill="#262626"><tspan font-weight="bold">작성일  </tspan><tspan>{{DATE}}</tspan></text>
+  </g>
+
+  <g id="author-slot" data-pptx-placeholder="body" data-pptx-placeholder-idx="3" data-pptx-placeholder-bounds="80 648 260 30">
+    <text id="author-carrier" data-pptx-placeholder-carrier="true" x="90" y="668" text-anchor="start"
+          xml:space="preserve" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="13"
+          fill="#262626"><tspan font-weight="bold">작성  </tspan><tspan>{{AUTHOR}}</tspan></text>
+  </g>
+</svg>
