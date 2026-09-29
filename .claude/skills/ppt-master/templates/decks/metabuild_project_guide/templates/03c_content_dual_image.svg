@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720"
+     data-pptx-master="master-default" data-pptx-master-name="기본 마스터"
+     data-pptx-layout="content_dual_image" data-pptx-layout-name="본문 - 좌우 비교">
+  <rect id="master-bg" data-pptx-layer="master" data-pptx-editable="false" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <image id="layout-dual-band" data-pptx-layer="layout" data-pptx-editable="false"
+         href="../images/header_band.png" x="0" y="0" width="1280" height="92" preserveAspectRatio="none"/>
+  <rect id="layout-dual-underline" data-pptx-layer="layout" data-pptx-editable="false" x="0" y="92" width="1280" height="4" fill="#C00000"/>
+  <image id="layout-dual-logo" data-pptx-layer="layout" data-pptx-editable="false"
+         href="../images/logo_mark.png" x="1140" y="682" width="100" height="25.6" preserveAspectRatio="none"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="56 20 1168 56">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="56" y="58" text-anchor="start"
+          xml:space="preserve" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="26"
+          font-weight="bold" fill="#FFFFFF">{{PAGE_TITLE}}</text>
+  </g>
+
+  <g id="picture-left-slot" data-pptx-placeholder="picture" data-pptx-placeholder-idx="1" data-pptx-placeholder-bounds="56 130 560 470">
+    <image id="picture-left-carrier" data-pptx-placeholder-carrier="true"
+           href="../images/bg_texture.jpeg" x="56" y="130" width="560" height="470" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <text id="caption-left" x="336" y="618" text-anchor="middle" xml:space="preserve"
+        font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="13" fill="#595959">{{IMAGE_LEFT_CAPTION}}</text>
+
+  <g id="picture-right-slot" data-pptx-placeholder="picture" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="664 130 560 470">
+    <image id="picture-right-carrier" data-pptx-placeholder-carrier="true"
+           href="../images/bg_texture.jpeg" x="664" y="130" width="560" height="470" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <text id="caption-right" x="944" y="618" text-anchor="middle" xml:space="preserve"
+        font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="13" fill="#595959">{{IMAGE_RIGHT_CAPTION}}</text>
+
+  <g id="pagenum-slot" data-pptx-placeholder="slide-number" data-pptx-placeholder-idx="9" data-pptx-placeholder-bounds="540 682 200 26">
+    <text id="pagenum-carrier" data-pptx-placeholder-carrier="true" x="640" y="700" text-anchor="middle"
+          xml:space="preserve" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="13"
+          fill="#595959"><tspan>- </tspan><tspan>{{PAGE_NUM}}</tspan><tspan> -</tspan></text>
+  </g>
+</svg>

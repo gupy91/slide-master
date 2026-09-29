@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720"
+     data-pptx-master="master-default" data-pptx-master-name="기본 마스터"
+     data-pptx-layout="toc" data-pptx-layout-name="목차">
+  <rect id="master-bg" data-pptx-layer="master" data-pptx-editable="false" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <image id="layout-toc-band" data-pptx-layer="layout" data-pptx-editable="false"
+         href="../images/header_band.png" x="0" y="0" width="1280" height="92" preserveAspectRatio="none"/>
+  <rect id="layout-toc-underline" data-pptx-layer="layout" data-pptx-editable="false" x="0" y="92" width="1280" height="4" fill="#C00000"/>
+  <image id="layout-toc-logo" data-pptx-layer="layout" data-pptx-editable="false"
+         href="../images/logo_mark.png" x="1140" y="682" width="100" height="25.6" preserveAspectRatio="none"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="56 20 1168 56">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="56" y="58" text-anchor="start"
+          xml:space="preserve" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="26"
+          font-weight="bold" fill="#FFFFFF">{{TITLE}}</text>
+  </g>
+
+  <g id="toc-badges">
+    <line x1="140" y1="216" x2="140" y2="516" stroke="#D9D9D9" stroke-width="2"/>
+    <circle cx="140" cy="216" r="26" fill="#ED7D31"/>
+    <text x="140" y="223" text-anchor="middle" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">01</text>
+    <circle cx="140" cy="316" r="26" fill="#ED7D31"/>
+    <text x="140" y="323" text-anchor="middle" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">02</text>
+    <circle cx="140" cy="416" r="26" fill="#ED7D31"/>
+    <text x="140" y="423" text-anchor="middle" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">03</text>
+    <circle cx="140" cy="516" r="26" fill="#ED7D31"/>
+    <text x="140" y="523" text-anchor="middle" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">04</text>
+  </g>
+
+  <g id="toc-items">
+    <text x="220" y="221" font-size="18" font-weight="bold" fill="#262626" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif">{{TOC_ITEM_1_TITLE}}</text>
+    <text x="220" y="245" font-size="13" fill="#595959" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif">{{TOC_ITEM_1_DESC}}</text>
+    <text x="220" y="321" font-size="18" font-weight="bold" fill="#262626" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif">{{TOC_ITEM_2_TITLE}}</text>
+    <text x="220" y="345" font-size="13" fill="#595959" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif">{{TOC_ITEM_2_DESC}}</text>
+    <text x="220" y="421" font-size="18" font-weight="bold" fill="#262626" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif">{{TOC_ITEM_3_TITLE}}</text>
+    <text x="220" y="445" font-size="13" fill="#595959" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif">{{TOC_ITEM_3_DESC}}</text>
+    <text x="220" y="521" font-size="18" font-weight="bold" fill="#262626" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif">{{TOC_ITEM_4_TITLE}}</text>
+    <text x="220" y="545" font-size="13" fill="#595959" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif">{{TOC_ITEM_4_DESC}}</text>
+  </g>
+
+  <g id="pagenum-slot" data-pptx-placeholder="slide-number" data-pptx-placeholder-idx="9" data-pptx-placeholder-bounds="540 682 200 26">
+    <text id="pagenum-carrier" data-pptx-placeholder-carrier="true" x="640" y="700" text-anchor="middle"
+          xml:space="preserve" font-family="Pretendard, &quot;Malgun Gothic&quot;, sans-serif" font-size="13"
+          fill="#595959"><tspan>- </tspan><tspan>{{PAGE_NUM}}</tspan><tspan> -</tspan></text>
+  </g>
+</svg>
